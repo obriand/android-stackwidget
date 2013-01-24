@@ -5,7 +5,7 @@
  * should not be modified by hand.
  */
 
-package com.example.test_stackview;
+package com.obriand.android_stackwidget;
 
 public final class R {
     public static final class attr {

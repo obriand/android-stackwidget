@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.example.test_stackview;
+package com.obriand.android_stackwidget;
 
 import java.util.ArrayList;
 import java.util.List;

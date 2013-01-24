@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.example.test_stackview;
+package com.obriand.android_stackwidget;
 
 public class WidgetItem {
     public String text;

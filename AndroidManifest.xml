@@ -1,8 +1,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.test_stackview">
+    package="com.obriand.android_stackwidget">
     <uses-sdk android:targetSdkVersion="14" android:minSdkVersion="14"/>
-    <application android:label="StackWidget">
-        <receiver android:name="StackWidgetProvider">
+    <application android:label="android-stackwidget">
+        <receiver android:name="com.obriand.android_stackwidget.StackWidgetProvider">
             <intent-filter>
                 <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
             </intent-filter>
@@ -10,7 +10,7 @@
                 android:resource="@xml/stackwidgetinfo" />
         </receiver>
 
-        <service android:name="StackWidgetService"
+        <service android:name="com.obriand.android_stackwidget.StackWidgetService"
             android:permission="android.permission.BIND_REMOTEVIEWS"
             android:exported="false" />
     </application>

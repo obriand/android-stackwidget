@@ -14,8 +14,7 @@
  * limitations under the License.
  */
 
-package com.example.test_stackview;
-
+package com.obriand.android_stackwidget;
 
 import android.app.PendingIntent;
 import android.appwidget.AppWidgetManager;
@@ -28,9 +27,9 @@ import android.widget.RemoteViews;
 import android.widget.Toast;
 
 public class StackWidgetProvider extends AppWidgetProvider {
-    public static final String TOAST_ACTION = "com.example.android.stackwidget.TOAST_ACTION";
-    public static final String EXTRA_ITEM = "com.example.android.stackwidget.EXTRA_ITEM";
-    public static final String TAG = "com.example.android.stackwidget.StackWidgetProvider" ;
+    public static final String TOAST_ACTION = "com.obriand.android_stackwidget.TOAST_ACTION";
+    public static final String EXTRA_ITEM = "com.obriand.android_stackwidget.EXTRA_ITEM";
+    public static final String TAG = "com.obriand.android_stackwidget.StackWidgetProvider" ;
 
     @Override
     public void onDeleted(Context context, int[] appWidgetIds) {
